@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Test_Site</title>
+
+    	<!-- Bootstrap CSS -->
+    	<link href="css/bootstrap.css" rel="stylesheet">
+	
+		<!-- Owl carousel -->
+		<link href="css/owl.carousel.css" rel="stylesheet">
+    	<link href="css/owl.theme.default.css" rel="stylesheet">
+
+    	<!-- Styles -->
+    	<link href="css/style.css" rel="stylesheet">
+
+    
+
+    	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    	<!--[if lt IE 9]>
+    	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    	<![endif]-->
+ 	</head>
+	<body>
+    
+	    <!-- ********** HEADER ********** -->
+	
+	    <header id="home" class="conteiner-fluid">
+			
+			<nav class="navbar whiteBackground position-fixed hidden-sm hidden-xs">
+				<div class="content">
+					<div class="row clearfix">
+						<div class="div logo float-left">
+							<a href="index.html""><img src="img/svg/logo.svg" alt="logo" height="27"></a>
+						</div>
+						<ul class="nav navbar-nav float-left">
+							<li class="item"><a href="index.html">Главная</a></li>
+							<li class="item"><a href="creator.html">Конструктор</a></li>
+							<li class="item"><a href="shop.html">Магазин</a></li>
+							<li class="item"><a href="#work">Инструкция</a></li>
+							<li class="item"><a href="#travel">О проекте</a></li>
+						</ul>
+						<div class="callbackButton float-right">
+							<div class="soc-icons clearfix">
+
+								<div class="iconWrapper">
+									<a href="#" class="socIcon iconNumber1">
+										<img src="img/svg/orange_vk.svg" alt="soc">
+									</a>
+								</div>
+
+								<div class="iconWrapper">
+									<a href="#" class="socIcon iconNumber2">
+										<img src="img/svg/orange_inst.svg" alt="soc">
+									</a>
+								</div>
+
+								<div class="iconWrapper">
+									<a href="#" class="socIcon iconNumber3">
+										<img src="img/svg/orange_fb.svg" alt="soc">
+									</a>
+								</div>
+							</div>
+							<div class="menuButton">
+
+								<button class="log-in">вход</button> или <button class="sign-in">регистрация</button>
+
+								<!-- log-in form -->
+								
+								<div class="log-inWrapper conteiner-fluid cls">
+									<div class="formWrapper">
+					
+										<h2 class="formHead orange_text">Войдите в свой аккаунт</h2>
+
+										<form id="form" method="post">
+                        					<input name="e-mail" placeholder="e-mail" required="required"/>
+                        					<input name="password" placeholder="password" required="required"/>
+                        					<div class="buttonWrapper">
+                            					<a class="button blueBackground orangeBackground" href="userPage.html">войти</a>
+                       						</div>
+                    					</form>
+
+									</div>
+								</div>
+
+								<!-- end log-in form -->
+
+								<!-- registration form -->
+								
+								<div class="registrationWrapper conteiner-fluid cls">
+									<div class="formWrapper">
+					
+										<h2 class="formHead orange_text">Регистрация</h2>
+
+										<form id="form" method="post">
+                        					<input name="e-mail" placeholder="e-mail" required="required"/>
+                        					<input name="password" placeholder="password" required="required"/>
+                        					<div class="buttonWrapper">
+                            					<input class="button blueBackground orangeBackground" type="submit" value="войти"/>
+                       						</div>
+                    					</form>
+
+									</div>
+								</div>
+								
+								<!-- end registration form -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+			<nav class="navbar whiteBackground position-fixed smartphoneMenu hidden-md hidden-lg">
+				<div class="content">
+
+					<div class="row clearfix">
+
+						<div class="div logo float-left">
+							<img src="img/svg/logo.svg" alt="logo" height="27">
+						</div>
+						<div class="menuNav">
+
+					<div class="menuNav_items">
+
+						<div class="drop-down">
+						
+							<div id="button-menu" class="menu_Button mobile-menu">
+								<div id="nav-icon4" class="nav-icon4">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+
+							<div class="mobile-menu-block hide">
+								<ul class="main">
+									<li class="item"><a href="index.html">Главная</a></li>
+									<li class="item"><a href="creator.html">Конструктор</a></li>
+									<li class="item"><a href="shop.html">Магазин</a></li>
+									<li class="item"><a href="#work">Инструкция</a></li>
+									<li class="item"><a href="#travel">О проекте</a></li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+				</div>
+					</div>
+				</div>
+
+				
+			</nav>
+
+	    </header>
+	
+		<!-- ********** END HEADER ********** -->
+		
+	
+		<!-- ********** CONTENT ********** -->
+		
+		<section id="creat" class="conteiner-fluid creat">
+			
+			<div class="content fullHeight">
+				
+				<div class="row clearfix fullHeight">
+					<div class="col-md-6 col-sm-12 col-xs-12 fullHeight">
+						<h3 class="withWave">Конструктор</h3>
+						<div class="cteator_photo_result">
+							<div class="level_1 active">
+								<object type="image/svg+xml" data="img/svg/orange_pattern.svg">Your browser does not support SVGs</object>
+							</div>
+							<div class="level_2">
+								<a class="tabLinks tabLink" data-toggle="tab" href="#level_2"></a>
+								<object type="image/svg+xml" data="img/svg/level_2.svg">Your browser does not support SVGs</object>
+							</div>
+							<div class="level_3">
+								<a class="tabLinks tabLink" data-toggle="tab" href="#level_2"></a>
+								<object type="image/svg+xml" data="img/svg/level_3.svg">Your browser does not support SVGs</object>
+							</div>
+							<div id="downloadThis" class="hide">
+								<svg xmlns="http://www.w3.org/2000/svg">
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="showRightColumn"><span></span></div>
+					<div class="col-md-6 col-sm-12 col-xs-12 greyBackgroung fullHeight rightHiddenColumn">
+						<div class="tabsWrapper">
+
+							<ul class="nav nav-tabs white_Background level_nav clearfix">
+								<li class="active"><a class="tabLink" data-toggle="tab" href="#level_1">Уровень 1</a></li>
+								<li><a class="tabLink" data-toggle="tab" href="#level_2">Уровень 2</a></li>
+								<li><a class="tabLink" data-toggle="tab" href="#level_3">Уровень 3</a></li>
+							</ul>
+
+							<div class="tab-content">
+								<div id="level_1" class="tab-pane fade active in">
+							    	<h3>Выбрать узор:</h3>
+							    	<div class="row white_Background">
+							    		<div class="col-md-4 buttons level_11">
+							    			<span class="openIt"></span>
+							    			<div class="pattern gg">
+							    				<div class="patternWrapper">
+							    					<object type="image/svg+xml" data="img/svg/blue_pattern.svg">Your browser does not support SVGs</object>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 buttons level_11">
+							    			<span class="openIt"></span>
+							    			<div class="pattern active">
+							    				<div class="patternWrapper">
+							    					<object type="image/svg+xml" data="img/svg/orange_pattern.svg">Your browser does not support SVGs</object>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 buttons level_11">
+							    			<span class="openIt"></span>
+							    			<div class="pattern gg">
+							    				<div class="patternWrapper">
+							    					<object type="image/svg+xml" data="img/svg/blue_pattern.svg">Your browser does not support SVGs</object>
+							    				</div>
+							    			</div>
+							    		</div>
+							    	</div>
+
+							    	<h3>Выбрать цвет:</h3>
+
+							    	<div class="colorWrapper white_Background">
+							    		<div class="colorBlock color-1">
+							    			<a href="#" class="color1 level_1 active"></a>
+							    		</div>
+							    		<div class="colorBlock color-2">
+							    			<a href="#" class="color2 level_1"></a>
+							    		</div>
+							    		<div class="colorBlock color-3">
+							    			<a href="#" class="color3 level_1"></a>
+							    		</div>
+							    		<div class="colorBlock color-4">
+							    			<a href="#" class="color4 level_1"></a>
+							    		</div>
+							    		<div class="colorBlock color-5">
+							    			<a href="#" class="color5 level_1"></a>
+							    		</div>
+							    		<div class="colorBlock color-6">
+							    			<a href="#" class="color6 level_1"></a>
+							    		</div>
+							    		<div class="colorBlock color-7">
+							    			<a href="#" class="color7 level_1"></a>
+							    		</div>
+							    		<div class="colorBlock color-8">
+							    			<a href="#" class="color8 level_1"></a>
+							    		</div>
+							    		<div class="colorBlock color-9">
+							    			<a href="#" class="color9 level_1"></a>
+							    		</div>
+							    		<div class="colorBlock">
+							    			<a href="#" class="color10 level_1"></a>
+							    		</div>
+							    	</div>
+
+							    	<h3>Выбрать толщину линий:</h3>
+							    	<div class="lineWrapper white_Background">
+							    		<div class="lineWidth">
+							    			<div class="lines line1 active"></div>
+							    			<div class="lines line2"></div>
+							    			<div class="lines line3"></div>
+							    			<div class="lines line4"></div>
+							    			<div class="lines line5"></div>
+							    		</div>
+							    	</div>
+							    	
+								</div>
+							  	<div id="level_2" class="tab-pane fade">
+							    	<h3>Menu 2</h3>
+							    	<div class="row white_Background">
+							    		<div class="col-md-4 buttons level_21">
+							    			<span class="openIt"></span>
+							    			<div class="pattern gg">
+							    				<div class="patternWrapper">
+							    					<object type="image/svg+xml" data="img/svg/level_2.svg">Your browser does not support SVGs</object>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 buttons level_21">
+							    			<span class="openIt"></span>
+							    			<div class="pattern active">
+							    				<div class="patternWrapper">
+							    					<object type="image/svg+xml" data="img/svg/orange_level_2.svg">Your browser does not support SVGs</object>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 buttons level_21">
+							    			<span class="openIt"></span>
+							    			<div class="pattern gg">
+							    				<div class="patternWrapper">
+							    					<object type="image/svg+xml" data="img/svg/blue_pattern.svg">Your browser does not support SVGs</object>
+							    				</div>
+							    			</div>
+							    		</div>
+
+							    	</div>
+
+							    	<h3>Выбрать цвет:</h3>
+
+							    	<div class="colorWrapper white_Background">
+							    		<div class="colorBlock color-1">
+							    			<a href="#" class="color1 level_2 active"></a>
+							    		</div>
+							    		<div class="colorBlock color-2">
+							    			<a href="#" class="color2 level_2"></a>
+							    		</div>
+							    		<div class="colorBlock color-3">
+							    			<a href="#" class="color3 level_2"></a>
+							    		</div>
+							    		<div class="colorBlock color-4">
+							    			<a href="#" class="color4 level_2"></a>
+							    		</div>
+							    		<div class="colorBlock color-5">
+							    			<a href="#" class="color5 level_2"></a>
+							    		</div>
+							    		<div class="colorBlock color-6">
+							    			<a href="#" class="color6 level_2"></a>
+							    		</div>
+							    		<div class="colorBlock color-7">
+							    			<a href="#" class="color7 level_2"></a>
+							    		</div>
+							    		<div class="colorBlock color-8">
+							    			<a href="#" class="color8 level_2"></a>
+							    		</div>
+							    		<div class="colorBlock color-9">
+							    			<a href="#" class="color9 level_2"></a>
+							    		</div>
+							    		<div class="colorBlock">
+							    			<a href="#" class="color10 level_2"></a>
+							    		</div>
+							    	</div>
+
+							    	<h3>Выбрать толщину линий:</h3>
+							    	<div class="lineWrapper white_Background">
+							    		<div class="lineWidth">
+							    			<div class="lines line1 active"></div>
+							    			<div class="lines line2"></div>
+							    			<div class="lines line3"></div>
+							    			<div class="lines line4"></div>
+							    			<div class="lines line5"></div>
+							    		</div>
+							    	</div>
+  								</div>
+  								<div id="level_3" class="tab-pane fade">
+   									<h3>Menu 3</h3>
+							    	<div class="row white_Background">
+							    		<div class="col-md-4 buttons level_31">
+							    			<span class="openIt"></span>
+							    			<div class="pattern gg">
+							    				<div class="patternWrapper">
+							    					<object type="image/svg+xml" data="img/svg/blue_pattern.svg">Your browser does not support SVGs</object>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 buttons level_31">
+							    			<span class="openIt"></span>
+							    			<div class="pattern active">
+							    				<div class="patternWrapper">
+							    					<object type="image/svg+xml" data="img/svg/level_3.svg">Your browser does not support SVGs</object>
+							    				</div>
+							    			</div>
+							    		</div>
+							    		<div class="col-md-4 buttons level_31">
+							    			<span class="openIt"></span>
+							    			<div class="pattern gg">
+							    				<div class="patternWrapper">
+							    					<object type="image/svg+xml" data="img/svg/blue_pattern.svg">Your browser does not support SVGs</object>
+							    				</div>
+							    			</div>
+							    		</div>
+							    	</div>
+
+							    	<h3>Выбрать цвет:</h3>
+
+							    	<div class="colorWrapper white_Background">
+							    		<div class="colorBlock color-1">
+							    			<a href="#" class="color1 level_3 active"></a>
+							    		</div>
+							    		<div class="colorBlock color-2">
+							    			<a href="#" class="color2 level_3"></a>
+							    		</div>
+							    		<div class="colorBlock color-3">
+							    			<a href="#" class="color3 level_3"></a>
+							    		</div>
+							    		<div class="colorBlock color-4">
+							    			<a href="#" class="color4 level_3"></a>
+							    		</div>
+							    		<div class="colorBlock color-5">
+							    			<a href="#" class="color5 level_3"></a>
+							    		</div>
+							    		<div class="colorBlock color-6">
+							    			<a href="#" class="color6 level_3"></a>
+							    		</div>
+							    		<div class="colorBlock color-7">
+							    			<a href="#" class="color7 level_3"></a>
+							    		</div>
+							    		<div class="colorBlock color-8">
+							    			<a href="#" class="color8 level_3"></a>
+							    		</div>
+							    		<div class="colorBlock color-9">
+							    			<a href="#" class="color9 level_3"></a>
+							    		</div>
+							    		<div class="colorBlock">
+							    			<a href="#" class="color10 level_3"></a>
+							    		</div>
+							    	</div>
+
+							    	<h3>Выбрать толщину линий:</h3>
+							    	<div class="lineWrapper white_Background">
+							    		<div class="lineWidth">
+							    			<div class="lines line1 active"></div>
+							    			<div class="lines line2"></div>
+							    			<div class="lines line3"></div>
+							    			<div class="lines line4"></div>
+							    			<div class="lines line5"></div>
+							    		</div>
+							    	</div>
+  								</div>
+							</div>
+						</div>
+						<button id="save" class="button orangeBackground block-center"><a href="">Создать</a></button>
+					</div>
+				</div>
+
+			</div>
+			
+		</section>
+
+
+		<!-- ********** END CONTENT ********** -->
+		<form action="./" method="post" class="formForDownload">
+            <textarea>
+            </textarea>
+        </form>
+
+		<!-- ********** FOOTER ********** -->
+		<footer class="conteiner-fluid">
+
+			<div class="content">
+				<div class="row clearfix">
+					<div class="conteiner-fluid">
+						<div class="footer-nav clearfix">
+
+							<div class="footerLink float-left">
+								<a href="#" class="footerIcons FooterIconsNumber1"></a>
+							</div>
+
+							<div class="footerLink float-left">
+								<a href="#" class="footerIcons FooterIconsNumber2"></a>
+							</div>
+
+							<div class="footerLink float-left">
+								<a href="#" class="footerIcons FooterIconsNumber3"></a>
+							</div>
+
+						</div>
+					</div>
+					<div class="conteiner-fluid">
+						<b>123 234 234 123</b>
+					</div>
+					<div class="conteiner-fluid">
+						<span class="footerText">all rights reserved 2015</span>
+					</div>
+				</div>
+			</div>
+			
+		</footer>
+		<!-- ********** END FOOTER ********** -->
+	
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    	<!-- Bootstrap JS -->
+    	<script src="js/bootstrap.js"></script>
+
+    	<script src="js/owl.carousel.js" ></script>
+    	<script src="js/main.js"></script>
+    	<script src="js/scripts.js"></script>
+
+  	</body>
+</html>
